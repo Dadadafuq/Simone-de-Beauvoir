@@ -1,0 +1,72 @@
+html {
+    background-image: url(../ASSETS/MAIN/main-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #FAFAFA;
+    height: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.9%;
+    padding-right: 5%;
+}
+
+.nav-item {
+    color: #85807A;
+    text-decoration: none;
+    width: 8%;
+    justify-content: center;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 13%;
+    padding-left: 16%;
+    padding-right: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 62%;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 25px;
+    word-spacing: 2px;
+    color: #85807A;
+}
+
+.dates {
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 9%;
+    padding-right: 10%;
+}
+
+.info {
+    padding-top: 7%;
+    padding-left: 18%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 62%;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 25px;
+    word-spacing: 2px;
+    color: #85807A;
+}
