@@ -22,3 +22,31 @@ html {
     font-size: 20px;
     letter-spacing: 5px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    padding-top: 5%;
+    color: #85807A;
+    align-self: center;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 45px;
+    letter-spacing: 5px;
+
+}
+
+p {
+    /* padding-top: 2%; */
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+    color: #85807A;
+    align-self: center;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 25px;
+    line-height: 170%;
+    letter-spacing: 5px;
+}

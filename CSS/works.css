@@ -1,5 +1,5 @@
 html {
-    /* background-image: ; */
+    background-image: url(../ASSETS/WORKS/works-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #FAFAFA;
@@ -21,4 +21,52 @@ html {
     font-family: 'Gideon Roman', cursive;
     font-size: 20px;
     letter-spacing: 5px;
+}
+
+.title {
+    display: flex;
+    color: #85807A;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.line-1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* background-color: blue; */
+    align-self: center;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+.line-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -0.2%;
+    /* background-color: aqua; */
+    align-self: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.line-3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -0.2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* background-color: blue; */
+    align-self: center;
+    align-content: center;
+    justify-content: space-around;
+
 }
